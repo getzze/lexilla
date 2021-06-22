@@ -40,7 +40,7 @@
 using namespace Scintilla;
 using namespace Lexilla;
 
-static const int NUM_JULIA_KEYWORD_LISTS = 4;
+static const int NUM_JULIA_KEYWORD_LISTS = 5;
 static const int MAX_JULIA_IDENT_CHARS = 1023;
 
 // Options used for LexerJulia
@@ -69,6 +69,7 @@ static const char * const juliaWordLists[NUM_JULIA_KEYWORD_LISTS + 1] = {
     "Primary keywords and identifiers",
     "Built in types",
     "Other keywords",
+    "Built in function names",
     "Raw string literals",
     0,
 };
